@@ -24,7 +24,7 @@ class EmployeesAddForm extends Component {
       this.props.onAdd(this.state.name, this.state.salary);
       this.setState({
             name: '',
-            salary: ''
+            salary: '' 
       })
    }
 
